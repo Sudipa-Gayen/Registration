@@ -1,0 +1,61 @@
+h1{
+    padding-top: 2pc;
+    text-align: center;
+    padding-bottom: 2pc;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial;
+    color: white;
+    text-decoration: underline;
+
+}
+.for{
+    padding-top: 5pc;
+    font-size: large;
+    margin-left: 23pc;
+    margin-right: 23pc;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15pc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color:rgba(0, 0, 255, 0.148);
+}
+#name,#fname,#mail,#no{
+    width: 70%;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.gen{
+    display: flex;
+    padding-bottom: 15px;
+
+}
+#dof{
+    width: 40%;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.chosse{
+    display: flex;
+    padding-bottom: 10px;
+}
+.btn{
+    text-align: center;
+    width: 8%;
+    justify-content: center;
+    margin-left: 19pc;
+    margin-top: 7pc;
+    margin-bottom: 6pc;
+    border-radius: 5px;
+    padding: 9px 10px;
+    cursor: pointer;
+    background-color: green;
+    border: 2px solid black;
+}
+body{
+    background-image: url("backf.jpeg");
+}
